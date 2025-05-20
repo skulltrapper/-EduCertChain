@@ -1,0 +1,73 @@
+# EduCertChain - Blockchain-Based Academic Certificate Verification System
+
+EduCertChain is a full-stack web application that uses blockchain technology to secure, issue, and verify academic certificates. It ensures tamper-proof, decentralized validation and transparency in the education sector.
+
+# Tech Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Blockchain: Custom-built in JavaScript (Proof-of-Work, SHA256)
+- Deployment: Docker (optional)
+
+# Features
+
+-  Issue digital certificates on-chain
+-  Verify authenticity in real time
+-  Check blockchain integrity
+-  Visualize chain of certificates
+-  Dockerized for platform-independent use
+
+# Getting Started
+
+# 1. Clone the Repository
+```bash
+git clone https://github.com/RoshanRoy10174/EduCertChain.git
+cd EduCertChain
+
+
+
+# 2. Install Backend Dependencies
+
+cd server
+npm install
+
+
+# 3. Run the App
+
+node index.js
+# or using Docker
+docker build -t educertchain .
+docker run -p 3000:3000 educertchain
+
+
+# 4. Open Frontend
+
+Open client/index.html in your browser and use the form to issue/verify certificates.
+
+
+Screenshots
+
+
+Certificate Issue Form
+
+Certificate Verifier
+
+Blockchain Visualizer
+
+CLI Mining Logs
+
+
+
+
+ Future Scope
+
+
+Smart contract-based workflows
+
+QR code for verification
+
+Integration with Aadhaar/digital IDs
+
+P2P blockchain federation across universities
+
+IPFS storage for actual certificate files
