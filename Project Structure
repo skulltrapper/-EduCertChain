@@ -1,0 +1,31 @@
+EduCertChain/
+├── blockchain/
+│   └── Blockchain.js              # Custom blockchain implementation
+├── server/
+│   ├── index.js                   # Express server and API routes
+│   └── certRoutes.js              # API handlers for issuing/verifying certs
+├── client/
+│   ├── index.html                 # Frontend UI
+│   ├── style.css                  # UI styling
+│   └── script.js                  # Frontend JS (fetch, DOM updates)
+├── docker/
+│   └── Dockerfile                 # For containerized deployment
+├── README.md                      # Documentation
+└── package.json                   # Node.js dependencies
+
+
+
+
+Key Features:
+
+Custom blockchain built in JavaScript
+
+SHA256 hashing + Proof of Work
+
+RESTful APIs: Issue & Verify Certificates
+
+Responsive UI for issuing & verifying certs
+
+Chain validity check
+
+Optional Docker deployment
