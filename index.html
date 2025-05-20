@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduCertChain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>EduCertChain</h1>
+  <div class="form-container">
+    <h2>Issue Certificate</h2>
+    <form id="issueForm">
+      <input type="text" placeholder="Student ID" id="studentID" required>
+      <input type="text" placeholder="Name" id="name" required>
+      <input type="text" placeholder="Degree" id="degree" required>
+      <input type="text" placeholder="Institution" id="institution" required>
+      <input type="number" placeholder="Year" id="year" required>
+      <button type="submit">Issue</button>
+    </form>
+
+    <h2>Verify Certificate</h2>
+    <input type="text" id="verifyID" placeholder="Enter Student ID">
+    <button onclick="verifyCertificate()">Verify</button>
+    <p id="verifyResult"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
